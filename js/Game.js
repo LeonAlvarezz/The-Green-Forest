@@ -15,7 +15,7 @@ function preload() {
     this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
     this.scale.parentIsWindow = true;
     //set the background color so can confirm the game renders in the browser
-    this.stage.backgroundColor = '#4488cc';
+    this.stage.backgroundColor = '#000000';
     
 
     //preload images & sounds
