@@ -25,8 +25,8 @@ var game = new Phaser.Game(config);
 var cursors;
 var player;
 var jumpKey;
-const speed = 1;
-const jumpForce = 8 ;     
+const speed = 1.5;
+const jumpForce = 9 ;     
 var isTouchingGround = false
 
 function preload() {
@@ -40,6 +40,7 @@ function preload() {
     // });
     this.load.atlas('sophy', 'images/sophy_walk.png', 'images/sophy_walk.json')
     this.load.atlas('sophy_idle', 'images/sophy_idle.png', 'images/sophy_idle.json')
+    this.load.atlas('sophy_jump', 'images/sophy_jump.png', 'images/sophy_jump.json')
 
 }
 
@@ -76,6 +77,13 @@ function create() {
         repeat: -1 // Repeat the animation indefinitely
     });
 
+    this.anims.create({
+        key: 'sophy_jump',
+        frames: this.anims.generateFrameNumbers('sophy_jump', {start: 1, end: 6, prefix: '', suffix:'.png' }), 
+        frameRate: 6, // Adjust the frame rate as needed
+        repeat: -1 // Repeat the animation indefinitely
+    });
+
 
 
     cursors = this.input.keyboard.createCursorKeys(); // Create cursor keys for input
@@ -98,23 +106,33 @@ function update() {
     {
         player.flipX = true
         player.setVelocityX(-speed)
-        player.anims.play('sophy_walk', true); // Use anims.play instead of player.play
+        if(isTouchingGround)
+        {
+            player.anims.play('sophy_walk', true); // Use anims.play instead of player.play
+        }
     } else if(cursors.right.isDown)
     {
         player.flipX = false
         player.setVelocityX(speed)
-        player.anims.play('sophy_walk', true); // Use anims.play instead of player.play
+        if(isTouchingGround)
+        {
+            player.anims.play('sophy_walk', true); // Use anims.play instead of player.play
+        }
     } else 
     {
         player.setVelocityX(0)
-        player.anims.play('sophy_idle', true); // Use anims.play instead of player.play
-
+        if (!player.anims.isPlaying || (player.anims.currentAnim.key !== 'sophy_jump') || isTouchingGround) {
+        player.anims.play('sophy_idle', true);
+        }
     }
 
     if (cursors.space.isDown && isTouchingGround )  {
-        player.setVelocityY(-jumpForce)    
+        player.setVelocityY(-jumpForce)   
+        player.anims.play('sophy_jump', true); // Use anims.play instead of player.play
         isTouchingGround = false
     }
+
+
 }
 
 
