@@ -1,0 +1,60 @@
+{"frames": [
+
+{
+	"filename": "1",
+	"frame": {"x":0,"y":0,"w":23,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":23,"h":36},
+	"sourceSize": {"w":23,"h":36}
+},
+{
+	"filename": "2",
+	"frame": {"x":23,"y":0,"w":16,"h":37},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":37},
+	"sourceSize": {"w":16,"h":37}
+},
+{
+	"filename": "3",
+	"frame": {"x":39,"y":0,"w":15,"h":38},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":15,"h":38},
+	"sourceSize": {"w":15,"h":38}
+},
+{
+	"filename": "4",
+	"frame": {"x":54,"y":0,"w":16,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":36},
+	"sourceSize": {"w":16,"h":36}
+},
+{
+	"filename": "5",
+	"frame": {"x":70,"y":0,"w":13,"h":37},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":13,"h":37},
+	"sourceSize": {"w":13,"h":37}
+},
+{
+	"filename": "6",
+	"frame": {"x":83,"y":0,"w":16,"h":38},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":38},
+	"sourceSize": {"w":16,"h":38}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "goon_walk.png",
+	"format": "RGBA8888",
+	"size": {"w":99,"h":38},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:bc7065e03f67c9750d2c621fba30e3c8:40b7c00162aa6c7cc26ea79571d4ef5f:33d04a44fa9d03b8fab8bb0ddebc5d4a$"
+}
+}

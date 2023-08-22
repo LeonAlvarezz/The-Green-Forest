@@ -1,0 +1,44 @@
+{"frames": [
+
+{
+	"filename": "1",
+	"frame": {"x":0,"y":0,"w":20,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":36},
+	"sourceSize": {"w":20,"h":36}
+},
+{
+	"filename": "2",
+	"frame": {"x":20,"y":0,"w":21,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":21,"h":36},
+	"sourceSize": {"w":21,"h":36}
+},
+{
+	"filename": "3",
+	"frame": {"x":41,"y":0,"w":21,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":21,"h":36},
+	"sourceSize": {"w":21,"h":36}
+},
+{
+	"filename": "4",
+	"frame": {"x":62,"y":0,"w":20,"h":36},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":36},
+	"sourceSize": {"w":20,"h":36}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "goon_idle.png",
+	"format": "RGBA8888",
+	"size": {"w":82,"h":36},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:611580a8148d85fd6def6103ff66eb1b:08cd4eae902bef381974f174fad2dc2f:57be757487bdf467d5fa2cd8cc300e9f$"
+}
+}
