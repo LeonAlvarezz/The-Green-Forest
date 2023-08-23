@@ -1,20 +1,36 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
 	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-	<title>Phaser boilerplate</title>
-    <script src="js/phaser.js"></script>
+	<meta name="viewport" content="width=device-width">
+	<title>The Green Forest</title>
+	<script src="//cdn.jsdelivr.net/npm/phaser@3.51.0/dist/phaser.min.js"></script>
+	<script type="module" src="js/Game1.js"></script>
+	<script src="js/phaser.js"></script>
+	<script type="module" src="js/TitleScreen.js"></script>
+    <script type="module" src="js/About.js"></script>
+    <script type="module" src="js/Game1.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+	<!-- Rest of your HTML and styling -->
 	<style>
 		body {
 			padding: 0;
 			margin: 0;
-			background-color: #000000;
+			background-color: #171717;
+		}
+
+		#gameContainer {
+			cursor: default;
+			/* Set the default cursor style */
 		}
 	</style>
 </head>
+
 <body>
-    <div id="gameContainer"></div>
-    <script src="js/Game1.js"></script>
+	<div id="gameContainer"></div>
 </body>
+
 </html>
