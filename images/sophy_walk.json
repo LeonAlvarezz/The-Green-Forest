@@ -1,0 +1,60 @@
+{"frames": [
+
+{
+	"filename": "1",
+	"frame": {"x":0,"y":0,"w":23,"h":33},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":23,"h":33},
+	"sourceSize": {"w":23,"h":33}
+},
+{
+	"filename": "2",
+	"frame": {"x":25,"y":0,"w":20,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":34},
+	"sourceSize": {"w":20,"h":34}
+},
+{
+	"filename": "3",
+	"frame": {"x":47,"y":0,"w":17,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":35},
+	"sourceSize": {"w":17,"h":35}
+},
+{
+	"filename": "4",
+	"frame": {"x":66,"y":0,"w":19,"h":33},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":19,"h":33},
+	"sourceSize": {"w":19,"h":33}
+},
+{
+	"filename": "5",
+	"frame": {"x":87,"y":0,"w":17,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":17,"h":34},
+	"sourceSize": {"w":17,"h":34}
+},
+{
+	"filename": "6",
+	"frame": {"x":106,"y":0,"w":21,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":21,"h":35},
+	"sourceSize": {"w":21,"h":35}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "sophy_walk.png",
+	"format": "RGBA8888",
+	"size": {"w":127,"h":35},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:43089b53d1006c5932c75c4e7a73559d:740450fba3971b888cb92ff75f9a8840:17c57347786d4522946db66d63940b30$"
+}
+}

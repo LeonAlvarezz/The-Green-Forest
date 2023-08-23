@@ -1,0 +1,60 @@
+{"frames": [
+
+{
+	"filename": "1",
+	"frame": {"x":0,"y":0,"w":16,"h":31},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":16,"h":31},
+	"sourceSize": {"w":16,"h":31}
+},
+{
+	"filename": "2",
+	"frame": {"x":0,"y":31,"w":18,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":18,"h":32},
+	"sourceSize": {"w":18,"h":32}
+},
+{
+	"filename": "3",
+	"frame": {"x":0,"y":63,"w":20,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":34},
+	"sourceSize": {"w":20,"h":34}
+},
+{
+	"filename": "4",
+	"frame": {"x":0,"y":97,"w":19,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":19,"h":34},
+	"sourceSize": {"w":19,"h":34}
+},
+{
+	"filename": "5",
+	"frame": {"x":0,"y":131,"w":19,"h":39},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":19,"h":39},
+	"sourceSize": {"w":19,"h":39}
+},
+{
+	"filename": "6",
+	"frame": {"x":0,"y":170,"w":20,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":20,"h":34},
+	"sourceSize": {"w":20,"h":34}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "sophy_jump.png",
+	"format": "RGBA8888",
+	"size": {"w":20,"h":204},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:81329627165fd1c2018375cafe4c69b7:f5af6cca40eb7ccc07355493e71b573c:628aa1c986a02e2560a2dd064cc3ed94$"
+}
+}
